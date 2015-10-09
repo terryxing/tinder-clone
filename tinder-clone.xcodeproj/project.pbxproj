@@ -14,6 +14,10 @@
 		37BADF391BC73015003D2549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BADF371BC73015003D2549 /* LaunchScreen.storyboard */; };
 		37BADF441BC73015003D2549 /* tinder_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BADF431BC73015003D2549 /* tinder_cloneTests.swift */; };
 		37BADF4F1BC73015003D2549 /* tinder_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BADF4E1BC73015003D2549 /* tinder_cloneUITests.swift */; };
+		37BADF5D1BC73095003D2549 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BADF5C1BC73095003D2549 /* CardsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		37BADF5F1BC7378C003D2549 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37BADF5E1BC7378C003D2549 /* DraggableImageView.xib */; settings = {ASSET_TAGS = (); }; };
+		37BADF611BC737EC003D2549 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BADF601BC737EC003D2549 /* DraggableImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		37BADF631BC73F6F003D2549 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BADF621BC73F6F003D2549 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		37BADF4A1BC73015003D2549 /* tinder-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tinder-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BADF4E1BC73015003D2549 /* tinder_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinder_cloneUITests.swift; sourceTree = "<group>"; };
 		37BADF501BC73015003D2549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BADF5C1BC73095003D2549 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		37BADF5E1BC7378C003D2549 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DraggableImageView.xib; path = ../DraggableImageView.xib; sourceTree = "<group>"; };
+		37BADF601BC737EC003D2549 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		37BADF621BC73F6F003D2549 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		37BADF2D1BC73015003D2549 /* tinder-clone */ = {
 			isa = PBXGroup;
 			children = (
+				37BADF5E1BC7378C003D2549 /* DraggableImageView.xib */,
 				37BADF2E1BC73015003D2549 /* AppDelegate.swift */,
 				37BADF301BC73015003D2549 /* ViewController.swift */,
 				37BADF321BC73015003D2549 /* Main.storyboard */,
 				37BADF351BC73015003D2549 /* Assets.xcassets */,
 				37BADF371BC73015003D2549 /* LaunchScreen.storyboard */,
 				37BADF3A1BC73015003D2549 /* Info.plist */,
+				37BADF5C1BC73095003D2549 /* CardsViewController.swift */,
+				37BADF601BC737EC003D2549 /* DraggableImageView.swift */,
+				37BADF621BC73F6F003D2549 /* ProfileViewController.swift */,
 			);
 			path = "tinder-clone";
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			files = (
 				37BADF391BC73015003D2549 /* LaunchScreen.storyboard in Resources */,
 				37BADF361BC73015003D2549 /* Assets.xcassets in Resources */,
+				37BADF5F1BC7378C003D2549 /* DraggableImageView.xib in Resources */,
 				37BADF341BC73015003D2549 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +273,9 @@
 			files = (
 				37BADF311BC73015003D2549 /* ViewController.swift in Sources */,
 				37BADF2F1BC73015003D2549 /* AppDelegate.swift in Sources */,
+				37BADF631BC73F6F003D2549 /* ProfileViewController.swift in Sources */,
+				37BADF611BC737EC003D2549 /* DraggableImageView.swift in Sources */,
+				37BADF5D1BC73095003D2549 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
